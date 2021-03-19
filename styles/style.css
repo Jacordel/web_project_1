@@ -124,7 +124,7 @@
   margin-top: 100px;
   margin-bottom: 20px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .section-subtitle {
@@ -136,7 +136,7 @@
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .table {
@@ -185,7 +185,7 @@
   padding-top: 100px;
   margin: auto;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .feynman__subtitle {

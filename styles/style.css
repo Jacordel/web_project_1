@@ -20,12 +20,12 @@
   /* parameters for the header section */
 }
 
-.logo_place {
+.logo-place {
   width: 154px;
   height: 31px;   
 }
 
-.logo_place__header_type_black {
+.logo-place__header_type_black {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -107,7 +107,7 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph_middle{
+.two-columns__paragraph:nth-of-type(2n){
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -224,15 +224,16 @@
   background-color: black;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: white;
   margin-top: 0;
   padding-top: 90px;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: white;
 }
 
@@ -242,7 +243,6 @@
   margin-right: 0;
   margin-top: 80px;
   position: relative;
-  z-index: 1;
 }
 
 .table__heading_theme_dark {
@@ -254,12 +254,13 @@
 }
 
 .kaufman__triangle {
+  background-image: url('../images/kaufman-triangle.svg');
   width: 877px;
   height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .footer {
@@ -289,7 +290,7 @@
   justify-content: space-between;
 }
 
-.logo_place__footer_type_white {
+.logo-place__footer_type_white {
   display: flex;
   width: 183px;
   height: 35px;
@@ -310,6 +311,10 @@
 
 .footer__column_content_info {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .footer__column-heading {
@@ -318,6 +323,8 @@
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-links {
@@ -325,15 +332,21 @@
   line-height: 30px;
   font-size: 18px;
   margin: 0;
+  padding-left: 0;
   font-weight: normal;
   text-decoration: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .footer__column_content_social {
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .footer__social-icon {

@@ -6,4 +6,5 @@
     top: 64px;
     right: 0px;
     z-index: -1;
+    transform: rotate(345deg);
 }

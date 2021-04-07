@@ -1,8 +1,9 @@
 .cards__item {
   width: 240px;
   padding: 60px 0 0 0;
+  margin: 0 100px 0 0;
 }
 
-.cards__item:nth-child(2), .cards__item:nth-child(5) {
-  margin: 0 100px 0 100px;
+.cards__item:nth-child(3n) {
+  margin: 0;
 }

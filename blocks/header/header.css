@@ -5,14 +5,14 @@
 @import url(../header/__square-pic/header__square-pic.css);
 
 .header {
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    background-color: #f2f2f2;
-    display: flex;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    /* parameters for the header section */
-  }
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  /* parameters for the header section */
+}
   
